@@ -1,0 +1,281 @@
+:root {
+    --basic-grey: #E5E5E5;
+    --basic-pink: #FFDCDC;
+    --basic-white: #ffffff;
+    --basic-cherry: #D89999;
+    --basic-wine: #AE7C78;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+.page {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    min-width: 960px;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 24px;
+    color: var(--basic-wine);
+    background-color: var(--basic-white);
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-list a {
+    color: var(--basic-wine);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+h1 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 60px;
+}
+
+h1 span {
+    font-style: italic;
+}
+
+h1+p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.catalog-link {
+    background: #D89999;
+    border-radius: 40px;
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+    padding: 30px 70px;
+}
+
+.advantage-dl dt {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.advantage-dl dd {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.slider-heading {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.slider-item-heading {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.slider-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.price {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.order-link {
+    background: #D89999;
+    border-radius: 40px;
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+    padding: 30px 110px;
+}
+
+.product-list {
+    list-style: none;
+    background-color: var(--basic-pink);
+}
+
+.product-list a {
+    color: white;
+}
+
+.product-list h3 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+}
+
+.product-list p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.promo-block h3{
+    font-family: Playfair Display;
+font-style: normal;
+font-weight: normal;
+font-size: 44px;
+line-height: 59px;
+letter-spacing: 0.02em;
+}
+
+.promo-block p{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+}
+
+.news-block h3{
+    font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+letter-spacing: 0.02em;
+}
+
+.news-block p{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+}
+
+.social-list{
+    list-style: none;
+}
+
+.order-steps-block h2{
+    font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+letter-spacing: 0.02em;
+
+}
+
+.order-steps-list{
+    list-style: none;
+}
+
+.order-steps-list h3{
+    font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+}
+
+.order-steps-list p{
+    font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+}
+
+.reviews-block h2{
+    font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+letter-spacing: 0.02em;
+}
+
+.reviews-block blockquote p{
+    font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+}
+
+.reviews-block blockquote cite{
+    font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+}
+
+.contacts-block h3{
+    font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+}
+
+.contacts-block p{
+    font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+}
+
+.contacts-block a{
+    font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+color: #AE7C78;
+}
