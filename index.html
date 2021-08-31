@@ -17,8 +17,9 @@
 
 <body>
     <header>
-        <nav>
-            <a href="#"><img src="img/logo.png" width="100" height="35" alt="Логотип магазина цветов"></a>
+        <nav class="nav-menu">
+            <a href="#" class="logo-link"><img src="img/logo.png" width="100" height="35"
+                    alt="Логотип магазина цветов"></a>
             <ul class="nav-list">
                 <li><a href="#">Каталог</a></li>
                 <li><a href="#">Оплата и доставка</a></li>
@@ -30,13 +31,19 @@
         </nav>
     </header>
     <main>
-        <section>
-            <h1>Авторские букеты <br><span>в Петербурге</span></h1>
-            <p>Оригинальные свежие букеты<br>
-                с доставкой по всему городу</p>
-            <a href="#" class="catalog-link">Смотреть каталог</a>
-            <img src="img/anna.jpg" width="390" height="405" alt="Розовые тюльпаны">
-            <img src="img/taisiia.jpg" width="390" height="405" alt="Букет с розами">
+        <section class="about-section">
+            <div class="description-block">
+                <h1>Авторские букеты <br><span>в Петербурге</span></h1>
+                <p class="description-text">Оригинальные свежие букеты<br>
+                    с доставкой по всему городу</p>
+                 <a href="#" class="catalog-link">Смотреть каталог</a>
+            </div>
+            <img src="img/anna.jpg" width="385" height="405" alt="Розовые тюльпаны" class="img-1">
+            <img src="img/taisiia.jpg" width="385" height="420" alt="Букет с розами" class="img-2">
+            
+        </section>
+
+        <div>
             <dl class="advantage-dl">
                 <dt> Быстрая доставка</dt>
                 <dd>Можем собрать букет и передать его в доставку всего за час.</dd>
@@ -47,13 +54,14 @@
                 <dt> Отправляем фото цветов</dt>
                 <dd>Перед доставкой сделаем фотографию букета и отправим вам.</dd>
             </dl>
-        </section>
+        </div>
 
         <section>
             <h2 class="slider-heading">Популярные букеты</h2>
             <div>
                 <h3 class="slider-item-heading">Букет «Нежность»</h3>
-                <p class="slider-text">Элегантный букет, который станет отличным подарком на день рождения или юбилей.</p>
+                <p class="slider-text">Элегантный букет, который станет отличным подарком на день рождения или юбилей.
+                </p>
                 <p>30 × 40 см</p>
                 <p class="price">3600 руб.</p>
                 <a href="#" class="order-link">Заказать</a>

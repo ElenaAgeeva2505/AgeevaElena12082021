@@ -28,6 +28,11 @@ body {
     background-color: var(--basic-white);
 }
 
+main{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
 a {
     text-decoration: none;
 }
@@ -50,8 +55,22 @@ img {
     overflow: hidden;
 }
 
+.nav-menu{
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
 .nav-list {
     list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list li{
+    margin: 0;
+    padding: 0;
 }
 
 .nav-list a {
@@ -60,6 +79,29 @@ img {
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
+}
+
+.about-section{
+    display: grid;
+    grid-template-columns: auto 1fr 1fr;
+    grid-template-rows: 80px 1fr;
+    margin-top: 80px;
+}
+
+.description-block{
+    grid-column-start: 1;
+    grid-row: 1/-1;
+}
+
+.img-1{
+    grid-column: 2/2;
+    grid-row: 2/-1;
+ 
+}
+
+.img-2{
+    grid-column: 3/3;
+    grid-row: 1/-1;
 }
 
 h1 {
@@ -88,7 +130,13 @@ h1+p {
     line-height: 20px;
     color: white;
     padding: 30px 70px;
-}
+
+ }
+
+ .description-text{
+     margin-bottom: 65px;
+     margin-right: 25px;
+ }
 
 .advantage-dl dt {
     font-style: normal;
@@ -166,116 +214,115 @@ h1+p {
     line-height: 20px;
 }
 
-.promo-block h3{
+.promo-block h3 {
     font-family: Playfair Display;
-font-style: normal;
-font-weight: normal;
-font-size: 44px;
-line-height: 59px;
-letter-spacing: 0.02em;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 59px;
+    letter-spacing: 0.02em;
 }
 
-.promo-block p{
+.promo-block p {
     font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 29px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
 }
 
-.news-block h3{
+.news-block h3 {
     font-family: Playfair Display;
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 48px;
-letter-spacing: 0.02em;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
 }
 
-.news-block p{
+.news-block p {
     font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 29px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
 }
 
-.social-list{
+.social-list {
     list-style: none;
 }
 
-.order-steps-block h2{
+.order-steps-block h2 {
     font-family: Playfair Display;
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 48px;
-letter-spacing: 0.02em;
-
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
 }
 
-.order-steps-list{
+.order-steps-list {
     list-style: none;
 }
 
-.order-steps-list h3{
+.order-steps-list h3 {
     font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
 }
 
-.order-steps-list p{
+.order-steps-list p {
     font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 20px;
-text-align: center;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
 }
 
-.reviews-block h2{
+.reviews-block h2 {
     font-family: Playfair Display;
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 48px;
-letter-spacing: 0.02em;
-}
-
-.reviews-block blockquote p{
     font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 20px;
-text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
 }
 
-.reviews-block blockquote cite{
+.reviews-block blockquote p {
     font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 20px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
 }
 
-.contacts-block h3{
+.reviews-block blockquote cite {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.contacts-block h3 {
     font-family: Playfair Display;
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 48px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
 }
 
-.contacts-block p{
+.contacts-block p {
     font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 20px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
 }
 
-.contacts-block a{
+.contacts-block a {
     font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 20px;
-color: #AE7C78;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
 }
