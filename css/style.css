@@ -522,10 +522,18 @@ h1+p {
     grid-row: 1/-1;
 }
 
+.reviews-block{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    border: solid 1px var(--basic-wine);
+}
+
 .reviews-block blockquote {
     display: flex;
     justify-content: space-between;
 }
+
 
 .reviews-block h2 {
     font-family: Playfair Display;
@@ -542,12 +550,17 @@ h1+p {
     flex-direction: column;
 }
 
+.reviews-text cite{
+    text-align: center;
+}
+
 .reviews-block blockquote p {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .reviews-block blockquote cite {
@@ -611,29 +624,30 @@ footer {
 }
 
 .footer-container {
+    padding: 30px 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 1200px;
     margin: 0 auto;
-}
-
-.footer-container .nav-list {
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-.footer-container .nav-list a {
-    color: #ffffff;
-    margin-right: 30px;
 }
 
 .footer-logo{
     display: block;
 }
 
-.footer-container .social-list{
+.footer-container .nav-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     margin: 0;
+}
+
+.footer-container .nav-list li{
+    margin-right: 50px;
+}
+
+.footer-container .nav-list a {
+    color: #ffffff;
 }
 
 
